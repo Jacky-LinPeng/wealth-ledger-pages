@@ -10,3 +10,7 @@
 
 .hero-art:before{display:none}.art-cell{position:relative;overflow:hidden;aspect-ratio:1;width:min(100%,480px);margin:auto}.hero-art .art-cell img{position:absolute;width:200%;height:200%;max-width:none;top:0;left:0;transform:none;filter:none;object-fit:fill}.hero h1{font-weight:800}.hero-art{padding:18px}.theme-button:last-child{grid-column:auto}.theme-picker{max-width:440px}.phone-stage img{border-radius:34px;border-width:5px}.trust-strip{border-color:var(--line)}
 @media(max-width:640px){.theme-picker{grid-template-columns:1fr}.theme-button small,.theme-button:last-child small{display:block}.theme-check{display:block}.hero-art{max-width:360px;padding:0}.hero h1{font-size:39px}.hero-art .art-cell img{transform:none}}
+
+/* Show the decorative scene cell from the native 2x2 artwork atlas. */
+.hero-art .art-cell img{left:-100%;top:-100%}
+:root[data-theme="golden"] .hero-art .art-cell img{width:185.1852%;left:-85.1852%}
